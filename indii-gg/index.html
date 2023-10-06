@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome To The Quiz</h1>
+        <div class="nextPrev">
+            <button onclick="previous()">Prev</button>
+            <button onclick="Next()">Next</button>
+        </div>
+    </div>
+    <div id="container-2">  
+        <div>
+            <h1 class="quesNo"></h1>
+            <p class="question-2">What is the capital of india</p>
+        </div>
+
+        <div class="options">
+            <h1>Choose wisely</h1>
+            <div>
+                <input type="radio" name="option-1" id="option-1" value="1"> 
+                <label for="">Delhi</label>
+            </div>
+
+            <div>
+                <input type="radio" name="option-1" id="option-2" value="2">
+                <label for="">patiala</label>
+            </div>
+
+            <div>
+                <input type="radio" name="option-1" id="option-3" value="3">
+                <label for="">Noida</label>
+            </div>
+
+            <div>
+                <input type="radio" name="option-1" id="option-4" value="4">
+                <label for="">Chennai</label>
+            </div>
+
+            <button onclick="submitQuiz()">Submit </button>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
+<script src="quiz.js"></script>
